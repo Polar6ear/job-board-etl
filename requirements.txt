@@ -1,0 +1,23 @@
+# Airflow
+apache-airflow==2.9.1
+apache-airflow-providers-postgres
+
+# FastAPI
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+sqlalchemy==2.0.30
+alembic==1.13.1
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# ETL / Data
+pydantic==2.7.1
+pydantic-settings==2.2.1
+httpx==0.27.0             # Async HTTP client for APIs
+beautifulsoup4==4.12.3    # Scraping
+lxml==5.2.1
+
+# Utils
+python-dotenv==1.0.1
+tenacity==8.3.0           # Retry logic
+structlog==24.1.0         # Structured logging
